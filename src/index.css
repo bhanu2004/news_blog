@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: hsl(210, 36%, 96%);
+  color: hsl(209, 61%, 16%);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+p{
+  padding: 10px;
+}
+.container{
+  width: 100%;
+  min-height: 100vh;
+}
+.heading{
+  text-align: center;
+  padding: 50px;
+}
+.heading h1{
+  background-color: white;
+  display: inline-block;
+  padding: 20px;
+}
+.newsSection{
+  width: 80%;
+  margin: auto;
+}
+.articleHeading{
+  font-size: 30px;
+}
+.showSize{
+  border: none;
+  background-color: transparent;
+  color: rgb(45, 125, 245);
+  cursor: pointer;
+}
+.article{
+  background-color: rgba(208, 222, 238, 0.679);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.article img{
+  width: 85%;
+  /* height: 350px; */
+  padding-left: 8%;
+
+}
+.removeButton{
+  background-color: rgba(248, 103, 103, 0.559);
+  padding: 10px 40px;
+  border: 1px;
+  border-radius: 10px;
+  color: rgb(60, 59, 59);
+  cursor: pointer;
+
+}
+.noNews{
+  width: 80%;
+  margin: auto;
+}
+.refresh{
+  padding: 15px 30px;
+  background-color: rgb(140, 182, 246);
+  font-size: 25px;
+  border: 0;
+}
+.refresh:hover{
+  font-size: 28px;
+  border-radius: 8px;
+}
